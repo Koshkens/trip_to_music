@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/* https://colorscheme.ru/#4T52fw0w0w0w0 */
+body {
+    font: 14px;
+    font-family: 'Pangolin', cursive;
+    margin: 20px;
+    color: black;
+    background: #c7b39b url(./img/background.jpg);
+}
+
+a {
+    color: black;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+.general {
+    border: #74217D solid 5px;
+    border-radius: 15px;
+    margin: 80px;
+    background-color: #62016D;
+    height: 1000000px;
+}
+
+header {
+    margin: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo {
+    width: 500px;
+    display: block;
+    float: left;
+}
+
+.menu {
+    display: block;
+    height: 126px;
+    float: right;
+    margin-right: 50px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.concert {
+    width: inherit;
+    display: block;
+    height: 500px;
+    margin: 50px 100px;
+}
+
+.concert-img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative
+}
+
+.concert-img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.concert-info {
+    text-align: center;
+    font-size: 32px;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.concert-button {
+    font-size: 32px;
+    background: #574DD8;
+    padding: .7em 1.5em;
+    outline: none;
+    border-radius: 5px;
+}
+
+.concert-button:hover {
+    background: #7972D8;
+}
+
+.concert-button:active {
+    background: #100873;
+}
+
+/* при нажатии */
